@@ -3,7 +3,7 @@
 
 ##############短期活动##############
 #京东极速版红包 活动时间：2021-2-14至2021-3-3
-0 0 * * * * * * node /scripts/js_redpacket.js >> /scripts/logs/js_redpacket.log 2>&1
+0 0 * * * node /scripts/js_redpacket.js >> /scripts/logs/js_redpacket.log 2>&1
 # 小鸽有礼2(活动时间：2021年1月28日～2021年2月28日)
 34 9 * * * node /scripts/jd_xgyl.js >> /scripts/logs/jd_jd_xgyl.log 2>&1
 
